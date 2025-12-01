@@ -21,10 +21,11 @@ Next, edit the `ntfy-config.json` file and add your ntfy instance:
 - `server` Your ntfy-instance
 - `topic` Your Topic/URI you're subscribed to
 
-If a new Version is available, the notification will look like this:
-
+The examples uses the public instance, which you could use of course aswell. But you can of course set via `server` any ntfy-instance.
 
 ## Notification
+If a new Version is available, the notification will look like this:
+
 ```
 🚀 Peacock Update Available!
 Current: 8.3.0
@@ -32,5 +33,3 @@ Latest: 8.4.0
 
 Check the Discord for the latest release.
 ```
-
-The examples uses the public instance, which you could use of course aswell. But you can of course set via `server` any ntfy-instance.
