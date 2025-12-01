@@ -8,19 +8,23 @@ The installation process is straightforward. Unpack the files `ntfy-updates.js` 
 
 Next, edit the `ntfy-config.json` file and add your ntfy instance:
 
-```json
+```JSON
 {
-    # Enabled/Disables the plugin
     "enabled": true,
-    # ntfy-instance
     "server": "https://ntfy.sh",
-    # Your Topic/URI you're subscribed to
     "topic": "<YOUR NTFY-TOPIC/URI>"
 }
 ```
 
+### Values
+- `enabled` Enables/Disabled the plugin
+- `server` Your ntfy-instance
+- `topic` Your Topic/URI you're subscribed to
+
 If a new Version is available, the notification will look like this:
 
+
+## Notification
 ```
 🚀 Peacock Update Available!
 Current: 8.3.0
