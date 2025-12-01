@@ -1,4 +1,4 @@
-# Peacock Plugin
+# Peacock ntfy-Plugin
 
 A simple Peacock plugin that checks if the current version is installed when the server starts or when the user logs into "Hitman WOA." If the installed version of Peacock is up to date, a message is printed in the server log. If a new version is available, the plugin sends a notification to the chosen ntfy instance, so the user doesn't have to check manually!
 
